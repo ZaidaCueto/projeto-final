@@ -11,6 +11,8 @@ Neste site, indivíduos que fabricam roupas e geram grandes quantidades de resí
 ## Tecnologias Utilizadas
 
 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/adonisjs/adonisjs-original.svg" />
+          
 
 ## Instruções de Instalação
 ```bash
