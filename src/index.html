@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Anúncios</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de Anúncios de Materiais Recicláveis</h1>
+    </header>
+    <main>
+        <section id="produtores">
+            <h2>Produtores de Lixo</h2>
+            <form id="produtor-form">
+                <label for="produtor-nome">Nome:</label>
+                <input type="text" id="produtor-nome" required>
+                <label for="produtor-whatsapp">WhatsApp:</label>
+                <input type="text" id="produtor-whatsapp" required>
+                <label for="produtor-tipo-lixo">Tipo de Lixo:</label>
+                <select id="produtor-tipo-lixo" required>
+                    <option value="Selecionar">Selecionar</option>
+                    <option value="Plástico">Plástico</option>
+                    <option value="Papel">Papel</option>
+                    <option value="Restos de Tecido">Restos de Tecido</option>
+                    <option value="Outro">Outro</option>
+                </select>
+                <label for="produtor-descricao">Descrição:</label>
+                <textarea id="produtor-descricao" required></textarea>
+                <button type="submit">Criar Anúncio</button>
+            </form>
+        </section>
+    </main>
+    <section id="anuncios">
+        <h2>Anúncios Disponíveis</h2>
+        <ul id="anuncios-lista">
+            <!-- Anúncios serão exibidos aqui -->
+        </ul>
+    </section>
+ <script src="./script.js"></script>
+    <!-- <script src="./classes/Anunciante.js"></script> -->
+    <!-- <script src="./classes/Anuncio.js"></script> -->
+    <!-- <script src="./classes/Pessoa.js"></script> -->
+    <!-- <script src="./classes/Users.js"></script> : -->
+</body> 
+</html>

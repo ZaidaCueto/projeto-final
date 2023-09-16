@@ -1,0 +1,17 @@
+{
+  "name": "projeto-final",
+  "version": "1.0.0",
+  "description": "projeto final da reprograma",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "author": "Zaida Cueto",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.17",
+    "@babel/preset-env": "^7.22.15",
+    "jest": "^29.6.4"
+  }
+}
